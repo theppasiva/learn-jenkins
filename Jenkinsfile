@@ -4,10 +4,11 @@ pipeline {
         label 'AGENT-1'
         
     }
+    
+}
     environment { 
         GRRETING = 'Hello Jenkins'
     }
-}
     // Build
     stages {
         stage('Build') {
